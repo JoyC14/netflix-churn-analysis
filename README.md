@@ -33,8 +33,11 @@ The goal is to identify key factors that contribute to subscription cancellation
 - Explore feature importance to better guide business decisions
 
 ## 📂 Repository Structure
+
+```text
 netflix-churn-analysis/
 ├── notebooks/        # Jupyter notebooks for EDA
 ├── data/             # Dataset files
 ├── images/           # Visualization outputs
 ├── README.md
+```
