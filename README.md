@@ -1,16 +1,15 @@
-# netflix-churn-analysis
-Python-based exploratory data analysis on Netflix customer churn using Kaggle dataset.
-
 # Netflix Customer Churn Analysis
+Python-based exploratory data analysis on Netflix customer churn using Kaggle dataset.
 
 ## 📌 Project Overview
 This project explores customer churn behavior in Netflix using a Kaggle dataset. 
 The goal is to identify key factors that contribute to subscription cancellation and provide actionable business insights.
 
 ## 📊 Dataset
-- Source: [Kaggle – Netflix Customer Churn Dataset](https://www.kaggle.com/)  
-- Rows: XXXX  
-- Features: subscription type, tenure, monthly charges, etc.
+- Source: https://www.kaggle.com/datasets/abdulwadood11220/netflix-customer-churn-dataset
+- Rows: 5,000
+- Columns: 14
+- Features: customerID, age, gender, subscription_type, watch_hours, avg_watch_time_per_day, last_login_days, churn
 
 ## 🔍 Key Questions
 - Which customer groups are more likely to churn?  
@@ -34,3 +33,8 @@ The goal is to identify key factors that contribute to subscription cancellation
 - Explore feature importance to better guide business decisions
 
 ## 📂 Repository Structure
+netflix-churn-analysis/
+├── notebooks/        # Jupyter notebooks for EDA
+├── data/             # Dataset files
+├── images/           # Visualization outputs
+├── README.md
